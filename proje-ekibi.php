@@ -1,5 +1,5 @@
 <?php include_once('header.php') ?>
-<section class="page-title centred" style="background-image: url(assets/images/background/page-title-5.jpg);">
+<section class="page-title centred" style="background-image: url(images/header.jpg);">
             <div class="auto-container">
                 <div class="content-box">
                     <h1>Proje Ekibi</h1>

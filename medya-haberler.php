@@ -1,5 +1,5 @@
 <?php include_once('header.php') ?>
-<section class="page-title centred" style="background-image: url(assets/images/background/page-title-5.jpg);">
+<section class="page-title centred" style="background-image: url(images/header.jpg);">
     <div class="auto-container">
         <div class="content-box">
             <h1>Medyada Çıkan Haberler</h1>
@@ -51,7 +51,7 @@ $haberler = [
                                 <div class="news-block-one wow fadeInUp animated animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                     <div class="inner-box">
                                         <figure class="image-box">
-                                            <a href="<?= $haber[2] ?>"><img src="images/haber/<?= $haber[0] ?>.jpg" alt=""></a>
+                                            <a target="_blank" href="<?= $haber[2] ?>"><img src="images/haber/<?= $haber[0] ?>.jpg" alt=""></a>
                                         </figure>
                                         <div class="lower-content">
                                             <h3><a style="font-size: 20px; line-height: 26px;" href="<?= $haber[2] ?>"><?= $haber[1] ?></a></h3>
